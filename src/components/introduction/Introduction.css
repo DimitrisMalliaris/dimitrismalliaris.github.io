@@ -1,0 +1,147 @@
+.intro{
+    display: flex;
+    height: 100vh;
+    font-size: 30px;
+}
+
+.intro-left{
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.intro-right{
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.intro-left-wrapper{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.intro-introtext{
+    font-weight: 300;
+    margin: 0;
+}
+
+.intro-name{
+    margin: 0;
+}
+
+.intro-title{
+    height: 50px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.intro-title-wrapper{
+    display: flex;
+    
+    height: 100%;
+    width: 100%;
+    animation: move-sideways 12s ease-in-out infinite alternate;
+}
+
+.intro-title-item{
+    height: 50px;
+    min-width: 200px;
+    max-width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 136, 25);
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+.intro-image{
+    max-width: 400px;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(198,196,197,255);   
+    object-fit: contain;
+    align-self: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+.intro-bg{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 100%);
+    background-color: #dd4600;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    animation: slidein forwards 1s;
+    top: 0;
+    right:0;
+}
+
+.intro-image-wrapper{
+    padding-top: 1ev;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    border:rgb(4, 59, 68) solid 3px;
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+    animation: fadein forwards 500ms;
+    animation-delay: 500ms;
+}
+
+.intro-resume{
+    background-color: #dd4600;
+    border-radius: 10px;
+    border:rgb(4, 59, 68) solid 1px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.intro-resume-text{
+    padding: 10px;
+}
+
+.intro-resume:hover{
+    animation: zoom 500ms forwards;
+}
+
+@media screen and (max-width:870px){
+    .intro{
+        flex-direction: column;
+    }
+    .intro-left-wrapper{
+        padding:10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height:100%;
+    }
+    .intro-image-wrapper{
+        width: 200px;
+        height: 200px;
+    }
+
+    .intro-image{
+        max-width: 200px;
+        min-width: 150px;
+    }
+
+    .intro-desc{
+        display: none;
+    }
+    .intro-bg{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%);
+    }
+}

@@ -1,0 +1,116 @@
+.about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-left{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.about-right{
+    flex:1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-card.bg{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    background-color: #dd4600;
+}
+
+.about-card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: fadein 2s forwards;
+}
+
+.about-sub{
+    margin: 20px 0px;
+}
+
+.about-desc{
+    padding:10px 30px 30px 0px;
+    font-size: 2vw;
+}
+
+a{
+    color: rgba(244,244,244,255);
+}
+
+@media screen and (max-width:556px){
+    .about{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .about-left{
+        width: 100%;
+    }
+
+    .about-card{
+        height: 30vh;
+    }
+
+    .about-card.bg{
+        display: none;
+    }
+    
+    .about-right{
+        padding: 20px;
+        padding-top: 5px;
+        justify-content:start;
+    }
+
+    .about-desc, .about-sub{
+        display: none;
+    }
+}
+
+.about-collabs, .about-technologies{
+    text-align: center;
+    padding-top:30px;
+}
+
+.about-collabs-list, .about-technologies-list{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.about-technology{
+    background-color: rgb(0, 2, 130);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.about-technology:hover{
+    cursor:default;
+    background-color: rgb(61, 44, 216);
+}
+
+.contact-chip:hover{
+    animation: hop 1s infinite;
+}

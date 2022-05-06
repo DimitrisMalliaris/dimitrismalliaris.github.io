@@ -150,7 +150,7 @@ export const introduction = {
         "Mobile",
         "Unity Engine"
     ],
-    resume: "https://drive.google.com/file/d/1xqlJT_PUPBjISchBfA66y1aRVZ759EZL/view?usp=sharing"
+    resume: "https://drive.google.com/file/d/1PGq59QVJFH58Na55JaxJ2iT-5J-wcbeg/view?usp=sharing"
 }
 
 export const contact = {

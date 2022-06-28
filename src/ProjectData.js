@@ -121,34 +121,36 @@ export const collaborations = [
 export const aboutme = {
     title: "Who am I?",
     subtitle: "",
-    description: <div><span>Having a passion for computers, I am almost finished with my Master Degree in Informatics and am currently pursuing my carreer as a developer.</span><br/>
+    description: <div><span>Having a passion for computers, after my Bachelor's in Agriculture, I completed my Master's Degree in Informatics and am currently pursuing my carreer as a developer.</span><br/>
     <span>I have developed a variety of web apps as well as desktop apps throughout my studies be it assignments or personal projects.</span><br/><span> Oh! I am also very intrigued by game development.</span></div>,
     technologies: [
-        ".NET",
+        "Python",
+        "C#",
+        "Javascript",
         "HTML",
         "CSS",
-        "Javascript",
         "Express",
         "NodeJS",
         "React",
-        "SQL",
+        "SQLite",
+        "PostgreSQL",
         "NoSQL",
         "Unity",
-        "C#"
+        ".NET"
     ]
 }
 
 export const introduction = {
     introtext: "Hello my name is",
     name: "Dimitris Malliaris",
-    description: "Aspiring Web and Video Game developer.",
+    description: "Aspiring developer.",
     titles: [
         "Web Apps",
         "Frontend",
         "Backend",
         "Desktop",
         "Mobile",
-        "Unity Engine"
+        "Unity"
     ],
     resume: "https://drive.google.com/file/d/1PGq59QVJFH58Na55JaxJ2iT-5J-wcbeg/view?usp=sharing"
 }

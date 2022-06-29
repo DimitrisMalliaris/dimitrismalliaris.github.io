@@ -1,21 +1,19 @@
 import unity_spacer from './images/unity_spacer.gif';
-import unity_garden_gnomes from './images/unity_garden_gnome_tower_defense.gif';
 import unity_laser_defender from './images/unity_laser_defender.gif';
 import email from './images/email.png';
 import address from './images/address.png';
 import linkedIn from './images/linkedin.png';
 import github from './images/github.png';
-import tourismappandroid from './images/tourismapp.PNG';
-import tourismappjapan from './images/tourismappjapan.PNG';
-import portfolio_site from './images/portfolio_site.PNG';
-import admin_app from './images/admin.png';
-import face_scanner from './images/face_scanner.PNG';
+import food_calculator from './images/icons8_healthy_food_calories_calculator_96px.png';
+import music_record from './images/icons8_music_record_96px.png';
+import profile from './images/icons8_profile_96px.png';
+import eye_scanner from './images/icons8_vision_96px.png';
 
 export const projects = [
     {
         id: 1,
         name: "Administration App",
-        img: admin_app,
+        img: music_record,
         description: "WPF App created using .NET for an independent record label.",
         technologies: [
             "C#",
@@ -27,8 +25,8 @@ export const projects = [
     {
         id: 2,
         name: "Portfolio Website",
-        link: "#",
-        img: portfolio_site,
+        link: "https://github.com/DimitrisMalliaris/dimitrismalliaris.github.io",
+        img: profile,
         description: "This portfolio site was made using React",
         technologies: [
             "React",
@@ -40,8 +38,8 @@ export const projects = [
     {
         id: 3,
         name: "Face Scanner",
-        link: "https://dimitrismalliaris.github.io/face-scanner/",
-        img: face_scanner,
+        link: "https://github.com/DimitrisMalliaris/face-scanner",
+        img: eye_scanner,
         description: "Face recognition app created using React, Express and the clarifai API",
         technologies: [
             "React",
@@ -56,20 +54,19 @@ export const projects = [
         id: 4,
         name: "Spacer",
         img: unity_spacer,
-        description: "A 3D video game made in Unity.",
-        technologies:
-        [
+        description: "A prototype 3D video game made in Unity.",
+        technologies: [
             "Unity",
             "C#",
         ]
     },
     {
         id: 5,
-        name: "Garden gnomes",
-        img: unity_garden_gnomes,
-        description: "A 2D video game made in Unity.",
-        technologies:
-        [
+        name: "Block Breaker: Mania",
+        link: "https://github.com/DimitrisMalliaris/block-breaker-mania",
+        img: "https://drive.google.com/uc?export=view&id=15YIuk8bHpdeDgo2yLgeuGeIAE6k33Jpk",
+        description: "A prototype 2D video game made in Unity.",
+        technologies: [
             "Unity",
             "C#",
         ]
@@ -78,33 +75,22 @@ export const projects = [
         id: 6,
         name: "Laser Defender",
         img: unity_laser_defender,
-        description: "A 2D video game made in Unity.",
-        technologies:
-        [
+        description: "A prototype 2D video game made in Unity.",
+        technologies: [
             "Unity",
             "C#",
         ]
     },
     {
         id: 7,
-        name: "Explore Santorini",
-        img: tourismappandroid,
-        description: "An android app containing the main attractions of Santorini. Supports google maps geolocation.",
-        technologies:
-        [
-            "Android Studio",
-            "Java",
-        ]
-    },
-    {
-        id: 8,
-        name: "Explore Japan",
-        img: tourismappjapan,
-        description: "A desktop Japan-guide app.",
-        technologies:
-        [
-            "Win Forms",
-            "C#",
+        name: "Diet Planner",
+        img: food_calculator,
+        link:"https://github.com/DimitrisMalliaris/diet-app",
+        description: "Android app for keeping track of your dietary needs. Created in Android Studio.",
+        technologies: [
+                "Java",
+                "Android Studio",
+                "Firebase"
         ]
     }
 ]

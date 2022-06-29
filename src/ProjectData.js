@@ -4,14 +4,25 @@ import email from './images/email.png';
 import address from './images/address.png';
 import linkedIn from './images/linkedin.png';
 import github from './images/github.png';
-import food_calculator from './images/icons8_healthy_food_calories_calculator_96px.png';
 import music_record from './images/icons8_music_record_96px.png';
-import profile from './images/icons8_profile_96px.png';
-import eye_scanner from './images/icons8_vision_96px.png';
 
 export const projects = [
     {
         id: 1,
+        name: "Master Thesis",
+        img: "https://user-images.githubusercontent.com/73944749/172878730-954ceed8-4524-4923-b8e9-11301f607306.gif",
+        link: "https://github.com/DimitrisMalliaris/master-thesis",
+        description: "Master thesis project. It is a personal implementation of GOAP.",
+        technologies: [
+            "Unity3d",
+            "C#",
+            "GOAP",
+            "Inteligent Agents",
+            "Blender"
+        ]
+    },
+    {
+        id: 2,
         name: "Administration App",
         img: music_record,
         description: "WPF App created using .NET for an independent record label.",
@@ -23,10 +34,10 @@ export const projects = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         name: "Portfolio Website",
         link: "https://github.com/DimitrisMalliaris/dimitrismalliaris.github.io",
-        img: profile,
+        img: "https://user-images.githubusercontent.com/73944749/176410832-4e1463d4-8015-4f90-91f2-3f98f5acc1bb.png",
         description: "This portfolio site was made using React",
         technologies: [
             "React",
@@ -36,10 +47,10 @@ export const projects = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         name: "Face Scanner",
         link: "https://github.com/DimitrisMalliaris/face-scanner",
-        img: eye_scanner,
+        img: "https://user-images.githubusercontent.com/73944749/176224893-434b6141-6ca8-47c2-8181-119c32427ce4.png",
         description: "Face recognition app created using React, Express and the clarifai API",
         technologies: [
             "React",
@@ -51,7 +62,7 @@ export const projects = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         name: "Spacer",
         img: unity_spacer,
         description: "A prototype 3D video game made in Unity.",
@@ -61,10 +72,10 @@ export const projects = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         name: "Block Breaker: Mania",
         link: "https://github.com/DimitrisMalliaris/block-breaker-mania",
-        img: "https://drive.google.com/uc?export=view&id=15YIuk8bHpdeDgo2yLgeuGeIAE6k33Jpk",
+        img: "https://user-images.githubusercontent.com/73944749/176411513-cb4bc2fb-98be-46c4-a187-d7acc2f117c0.png",
         description: "A prototype 2D video game made in Unity.",
         technologies: [
             "Unity",
@@ -72,7 +83,7 @@ export const projects = [
         ]
     },
     {
-        id: 6,
+        id: 7,
         name: "Laser Defender",
         img: unity_laser_defender,
         description: "A prototype 2D video game made in Unity.",
@@ -82,15 +93,27 @@ export const projects = [
         ]
     },
     {
-        id: 7,
+        id: 8,
         name: "Diet Planner",
-        img: food_calculator,
+        img: "https://user-images.githubusercontent.com/73944749/176214754-00d6e6c6-e942-4d0b-a1cb-50d0ebe68c2e.png",
         link:"https://github.com/DimitrisMalliaris/diet-app",
         description: "Android app for keeping track of your dietary needs. Created in Android Studio.",
         technologies: [
                 "Java",
                 "Android Studio",
                 "Firebase"
+        ]
+    },
+    {
+        id: 9,
+        name: "Librarian",
+        img: "https://user-images.githubusercontent.com/73944749/176171615-3fb3cc62-5313-4c19-9505-255c6c82c83b.png",
+        link: "https://github.com/DimitrisMalliaris/librarian",
+        description: "Desktop app created with Winforms & PostgreSQL",
+        technologies: [
+            ".NET framework",
+            "Winforms",
+            "PostgreSQL"
         ]
     }
 ]

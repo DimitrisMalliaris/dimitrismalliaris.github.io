@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8d3aff57.css",
-    "main.js": "/static/js/main.95e953c3.js",
+    "main.js": "/static/js/main.d59db2fe.js",
     "static/js/787.05224abb.chunk.js": "/static/js/787.05224abb.chunk.js",
     "static/media/face_scanner.PNG": "/static/media/face_scanner.b964fd3a880f310a107b.PNG",
     "static/media/unity_laser_defender.gif": "/static/media/unity_laser_defender.7786def8f2796ce0d21c.gif",
@@ -13,11 +13,11 @@
     "static/media/me.jpg": "/static/media/me.94bf5df1a00952100916.jpg",
     "index.html": "/index.html",
     "main.8d3aff57.css.map": "/static/css/main.8d3aff57.css.map",
-    "main.95e953c3.js.map": "/static/js/main.95e953c3.js.map",
+    "main.d59db2fe.js.map": "/static/js/main.d59db2fe.js.map",
     "787.05224abb.chunk.js.map": "/static/js/787.05224abb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8d3aff57.css",
-    "static/js/main.95e953c3.js"
+    "static/js/main.d59db2fe.js"
   ]
 }

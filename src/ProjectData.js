@@ -1,5 +1,4 @@
 import unity_spacer from './images/unity_spacer.gif';
-import unity_laser_defender from './images/unity_laser_defender.gif';
 import email from './images/email.png';
 import address from './images/address.png';
 import linkedIn from './images/linkedin.png';
@@ -84,8 +83,9 @@ export const projects = [
     },
     {
         id: 7,
-        name: "Laser Defender",
-        img: unity_laser_defender,
+        name: "Star Fighter",
+        link: "https://github.com/DimitrisMalliaris/star-fighter",
+        img: "https://user-images.githubusercontent.com/73944749/176432729-9eb6cd81-6602-4fd3-9e8d-1e078c832d36.png",
         description: "A prototype 2D video game made in Unity.",
         technologies: [
             "Unity",

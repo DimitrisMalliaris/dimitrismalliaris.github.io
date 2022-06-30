@@ -183,7 +183,7 @@ export const contact = {
         },
         {
             id: 3,
-            link: "https://www.linkedin.com/in/dimitris-malliaris-a65047177/",
+            link: "https://www.linkedin.com/in/dimitrios-malliaris/",
             info: "LinkedIn",
             img: linkedIn
         },
